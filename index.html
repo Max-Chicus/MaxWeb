@@ -754,17 +754,18 @@
                         <form class="contact-form"
                             action="https://api.web3forms.com/submit"
                             method="POST">
-                            <div class="form-group">
-                                <input type="text" class="form-input"
-                                    placeholder="Numele tau" required>
-                            </div>
 
                             <!-- Access key generat de Web3Forms -->
                             <input type="hidden" name="access_key"
                                 value="bdb3f582-daee-4fce-aab1-d68084aa2f00">
 
                             <div class="form-group">
-                                <input type="tel" class="form-input"
+                                <input type="text" name="name" class="form-input"
+                                    placeholder="Numele tau" required>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="tel" name="tell" class="form-input"
                                     placeholder="Numarul de telefon" required>
                             </div>
                             <div class="form-group">
